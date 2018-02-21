@@ -3,12 +3,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Paycoin</source>
-        <translation>À propos de Paycoin</translation>
+        <source>About EsZett</source>
+        <translation>À propos de EsZett</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>Version de &lt;b&gt;Paycoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;EsZett&lt;/b&gt; version</source>
+        <translation>Version de &lt;b&gt;EsZett&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -18,8 +18,8 @@
         <translation>Carnet d'adresses</translation>
     </message>
     <message>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Voici vos adresses Paycoin pour recevoir des paiements.  Vous pouvez en communiquer une différente à chacun de vos expéditeurs afin de pouvoir identifier qui vous paie.</translation>
+        <source>These are your EsZett addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Voici vos adresses EsZett pour recevoir des paiements.  Vous pouvez en communiquer une différente à chacun de vos expéditeurs afin de pouvoir identifier qui vous paie.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
@@ -190,8 +190,8 @@ Are you sure you wish to encrypt your wallet?</source>
 Êtes-vous sûr de vouloir chiffrer votre porte-monnaie ?</translation>
     </message>
     <message>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin va maintenant se fermer pour terminer le processus de chiffrement. Sachez que le chiffrement de votre portefeuille ne peut pas vous protéger totalement contre le vol de vos Paycoins par des logiciels malveillants qui auraient infecté votre ordinateur.</translation>
+        <source>EsZett will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your EsZetts from being stolen by malware infecting your computer.</source>
+        <translation>EsZett va maintenant se fermer pour terminer le processus de chiffrement. Sachez que le chiffrement de votre portefeuille ne peut pas vous protéger totalement contre le vol de vos EsZetts par des logiciels malveillants qui auraient infecté votre ordinateur.</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -277,8 +277,8 @@ Are you sure you wish to encrypt your wallet?</source>
         <translation>Quitter l'application</translation>
     </message>
     <message>
-        <source>Show information about Paycoin</source>
-        <translation>Afficher des informations sur Paycoin</translation>
+        <source>Show information about EsZett</source>
+        <translation>Afficher des informations sur EsZett</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -362,12 +362,12 @@ Are you sure you wish to encrypt your wallet?</source>
 Voulez-vous payer les frais?</translation>
     </message>
     <message>
-        <source>Paycoin Wallet</source>
-        <translation>Porte-monnaie Paycoin</translation>
+        <source>EsZett Wallet</source>
+        <translation>Porte-monnaie EsZett</translation>
     </message>
     <message>
-        <source>Send coins to a Paycoin address</source>
-        <translation>Envoyer de la monnaie à une adresse Paycoin</translation>
+        <source>Send coins to a EsZett address</source>
+        <translation>Envoyer de la monnaie à une adresse EsZett</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
@@ -378,20 +378,20 @@ Voulez-vous payer les frais?</translation>
         <translation>Multisignature</translation>
     </message>
     <message>
-        <source>&amp;About Paycoin</source>
-        <translation>&amp;À propos de Paycoin</translation>
+        <source>&amp;About EsZett</source>
+        <translation>&amp;À propos de EsZett</translation>
     </message>
     <message>
-        <source>Modify configuration options for Paycoin</source>
-        <translation>Modifier la configuration des options pour Paycoin</translation>
+        <source>Modify configuration options for EsZett</source>
+        <translation>Modifier la configuration des options pour EsZett</translation>
     </message>
     <message>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>Afficher/Masquer &amp;Paycoin</translation>
+        <source>Show/Hide &amp;EsZett</source>
+        <translation>Afficher/Masquer &amp;EsZett</translation>
     </message>
     <message>
-        <source>Show or hide the Paycoin window</source>
-        <translation>Afficher ou masquer la fenêtre Paycoin</translation>
+        <source>Show or hide the EsZett window</source>
+        <translation>Afficher ou masquer la fenêtre EsZett</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -406,12 +406,12 @@ Voulez-vous payer les frais?</translation>
         <translation>&amp;Changer la phrase de passe...</translation>
     </message>
     <message>
-        <source>Paycoin client</source>
-        <translation>Client Paycoin</translation>
+        <source>EsZett client</source>
+        <translation>Client EsZett</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Paycoin network</source>
-        <translation><numerusform>%n connexion active avec le réseau Paycoin</numerusform><numerusform>%n connexions actives avec le réseau Paycoin</numerusform></translation>
+        <source>%n active connection(s) to EsZett network</source>
+        <translation><numerusform>%n connexion active avec le réseau EsZett</numerusform><numerusform>%n connexions actives avec le réseau EsZett</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -506,8 +506,8 @@ Adresse : %4
         <translation>Une erreur est survenue lors de l'enregistrement des données du porte-monnaie à un autre emplacement.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale a eu lieu. Paycoin ne peut plus continuer de manière sure et va se fermer.</translation>
+        <source>A fatal error occurred. EsZett can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale a eu lieu. EsZett ne peut plus continuer de manière sure et va se fermer.</translation>
     </message>
     </context>
 <context>
@@ -736,8 +736,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Interface Utilisateur &amp;Langue : </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Paycoin.</source>
-        <translation>La langue de l’interface utilisateur peut être définie ici. Les modifications prendront effet après le redémarrage de Paycoin.</translation>
+        <source>The user interface language can be set here. This setting will only take effect after restarting EsZett.</source>
+        <translation>La langue de l’interface utilisateur peut être définie ici. Les modifications prendront effet après le redémarrage de EsZett.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in: </source>
@@ -752,8 +752,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>&amp;Afficher les adresses dans la liste des transactions</translation>
     </message>
     <message>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
-        <translation>Afficher ou non les adresses Paycoin dans la liste des transactions</translation>
+        <source>Whether to show EsZett addresses in the transaction list</source>
+        <translation>Afficher ou non les adresses EsZett dans la liste des transactions</translation>
     </message>
     <message>
         <source>Display coin control features (experts only!)</source>
@@ -768,8 +768,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Attention</translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Paycoin.</source>
-        <translation>Les modifications prendront effet après le redémarrage de Paycoin.</translation>
+        <source>This setting will take effect after restarting EsZett.</source>
+        <translation>Les modifications prendront effet après le redémarrage de EsZett.</translation>
     </message>
     </context>
 <context>
@@ -815,8 +815,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>L'adresse fournie « %1 » est déjà présente dans le carnet d'adresses.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Paycoin address.</source>
-        <translation>L'adresse saisie "%1" n'est pas une adresse Paycoin valide.</translation>
+        <source>The entered address "%1" is not a valid EsZett address.</source>
+        <translation>L'adresse saisie "%1" n'est pas une adresse EsZett valide.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -849,12 +849,12 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Détacher les bases de données des blocs et des adresses à la fermeture. Ceci signifie qu'elles pourront être déplacées vers un autre répertoire de données, mais cela ralentit la fermeture. Le porte-monnaie est toujours détaché.</translation>
     </message>
     <message>
-        <source>&amp;Start Paycoin on system login</source>
-        <translation>&amp;Démarrer Paycoin lors de l'ouverture d'une session</translation>
+        <source>&amp;Start EsZett on system login</source>
+        <translation>&amp;Démarrer EsZett lors de l'ouverture d'une session</translation>
     </message>
     <message>
-        <source>Automatically start Paycoin after logging in to the system</source>
-        <translation>Démarrer Paycoin automatiquement après avoir ouvert une session sur le système.</translation>
+        <source>Automatically start EsZett after logging in to the system</source>
+        <translation>Démarrer EsZett automatiquement après avoir ouvert une session sur le système.</translation>
     </message>
     </context>
 <context>
@@ -1141,8 +1141,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>123.456</translation>
     </message>
     <message>
-        <source>XPY</source>
-        <translation>XPY</translation>
+        <source>XSZ</source>
+        <translation>XSZ</translation>
     </message>
     <message>
         <source>Add input...</source>
@@ -1201,12 +1201,12 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Confirmez l'envoi de la transaction</translation>
     </message>
     <message>
-        <source>The fee of the transaction (%1 XPY) is smaller than the expected fee (%2 XPY). Do you want to send the transaction anyway?</source>
-        <translation>Les frais de la transaction (%1 XPY) sont plus faible que les frais attendu (%2 XPY). Voulez-vous quand même envoyer la transaction?</translation>
+        <source>The fee of the transaction (%1 XSZ) is smaller than the expected fee (%2 XSZ). Do you want to send the transaction anyway?</source>
+        <translation>Les frais de la transaction (%1 XSZ) sont plus faible que les frais attendu (%2 XSZ). Voulez-vous quand même envoyer la transaction?</translation>
     </message>
     <message>
-        <source>The fee of the transaction (%1 XPY) is bigger than the expected fee (%2 XPY). Do you want to send the transaction anyway?</source>
-        <translation>Les frais de la transaction (%1 XPY) sont plus gros que les frais attendu (%2 XPY). Voulez-vous quand même envoyer la transaction?</translation>
+        <source>The fee of the transaction (%1 XSZ) is bigger than the expected fee (%2 XSZ). Do you want to send the transaction anyway?</source>
+        <translation>Les frais de la transaction (%1 XSZ) sont plus gros que les frais attendu (%2 XSZ). Voulez-vous quand même envoyer la transaction?</translation>
     </message>
 </context>
 <context>
@@ -1255,8 +1255,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Ouvrir le port avec l'&amp;UPnP</translation>
     </message>
     <message>
-        <source>Automatically open the Paycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client Paycoin sur le routeur. Ceci ne fonctionne que si votre routeur supporte le protocole UPnP et l'a activé.</translation>
+        <source>Automatically open the EsZett client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client EsZett sur le routeur. Ceci ne fonctionne que si votre routeur supporte le protocole UPnP et l'a activé.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS4 proxy:</source>
@@ -1321,8 +1321,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Votre solde actuel</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Paycoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>L'information affichée peut être obsolète. Votre porte-monnaie va se synchroniser automatiquement dès qu'une connexion au réseau Paycoin sera établie, mais ce processus n'a pas pu encore être effectué.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EsZett network after a connection is established, but this process has not completed yet.</source>
+        <translation>L'information affichée peut être obsolète. Votre porte-monnaie va se synchroniser automatiquement dès qu'une connexion au réseau EsZett sera établie, mais ce processus n'a pas pu encore être effectué.</translation>
     </message>
     <message>
         <source>Your current stake</source>
@@ -1360,8 +1360,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Montant :</translation>
     </message>
     <message>
-        <source>XPY</source>
-        <translation>XPY</translation>
+        <source>XSZ</source>
+        <translation>XSZ</translation>
     </message>
     <message>
         <source>Label:</source>
@@ -1395,8 +1395,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
 <context>
     <name>RPCConsole</name>
     <message>
-        <source>Paycoin debug window</source>
-        <translation>Fenêtre de débogage Paycoin</translation>
+        <source>EsZett debug window</source>
+        <translation>Fenêtre de débogage EsZett</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -1447,7 +1447,7 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Journaux de débogage</translation>
     </message>
     <message>
-        <source>Open the Paycoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <source>Open the EsZett debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
         <translation>Ouvrir les journaux de débogage depuis le répertoire de données courant. Ceci peut prendre plusieurs secondes pour de large journaux.</translation>
     </message>
     <message>
@@ -1471,8 +1471,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Nettoyer la console</translation>
     </message>
     <message>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Bienvenue dans la console RPC de Paycoin.&lt;br&gt;Utilisez les flèches haut et bas pour naviguer dans l'historique, et &lt;b&gt;Ctrl-L&lt;/b&gt; pour nettoyer l'écran.&lt;br&gt;Tapper &lt;b&gt;help&lt;/b&gt; pour avoir un aperçu des commandes disponibles.</translation>
+        <source>Welcome to the EsZett RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Bienvenue dans la console RPC de EsZett.&lt;br&gt;Utilisez les flèches haut et bas pour naviguer dans l'historique, et &lt;b&gt;Ctrl-L&lt;/b&gt; pour nettoyer l'écran.&lt;br&gt;Tapper &lt;b&gt;help&lt;/b&gt; pour avoir un aperçu des commandes disponibles.</translation>
     </message>
     <message>
         <source>Client</source>
@@ -1642,8 +1642,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Le montant à payer doit être d'au moins un centime (0.01).</translation>
     </message>
     <message>
-        <source>Warning: Invalid Paycoin address</source>
-        <translation>Attention : Adresse Paycoin invalide</translation>
+        <source>Warning: Invalid EsZett address</source>
+        <translation>Attention : Adresse EsZett invalide</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1654,8 +1654,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>(aucune étiquette)</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Entrez une adresse Paycoin</translation>
+        <source>Enter a EsZett address</source>
+        <translation>Entrez une adresse EsZett</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1693,8 +1693,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>L'adresse à laquelle le paiement sera envoyé</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address (e.g. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Entrez une adresse Paycoin (par ex. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a EsZett address (e.g. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Entrez une adresse EsZett (par ex. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Choose address from address book</source>
@@ -1764,8 +1764,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Copier la signature dans le presse-papiers</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Paycoin address</source>
-        <translation>Signez le message pour prouver que vous possédez cette adresse Paycoin</translation>
+        <source>Sign the message to prove you own this EsZett address</source>
+        <translation>Signez le message pour prouver que vous possédez cette adresse EsZett</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1792,8 +1792,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>L'adresse avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>Vérifiez le message pour vous assurer qu'il a été signé par l'adresse Paycoin spécifiée</translation>
+        <source>Verify the message to ensure it was signed with the specified EsZett address</source>
+        <translation>Vérifiez le message pour vous assurer qu'il a été signé par l'adresse EsZett spécifiée</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1812,8 +1812,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Entrez la signature du message</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Entrez une adresse Paycoin</translation>
+        <source>Enter a EsZett address</source>
+        <translation>Entrez une adresse EsZett</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1867,8 +1867,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>The Paycoin developers</source>
-        <translation>Les développeurs de Paycoin</translation>
+        <source>The EsZett developers</source>
+        <translation>Les développeurs de EsZett</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2304,8 +2304,8 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Utilisation :</translation>
     </message>
     <message>
-        <source>Paycoin version</source>
-        <translation>Version de Paycoin</translation>
+        <source>EsZett version</source>
+        <translation>Version de EsZett</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -2320,12 +2320,12 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Options :</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: paycoin.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut : paycoin.conf)</translation>
+        <source>Specify configuration file (default: eszett.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut : eszett.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut : paycoind.pid)</translation>
+        <source>Specify pid file (default: eszettd.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut : eszettd.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>
@@ -2476,12 +2476,12 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
         <translation>Chiffrements acceptables (par défaut : TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>Impossible d'obtenir un verrou pour le répertoire des données %s.  Paycoin est probablement déjà en cours de fonctionnement.</translation>
+        <source>Cannot obtain a lock on data directory %s.  EsZett is probably already running.</source>
+        <translation>Impossible d'obtenir un verrou pour le répertoire des données %s.  EsZett est probablement déjà en cours de fonctionnement.</translation>
     </message>
     <message>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>EsZett</source>
+        <translation>EsZett</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
@@ -2501,21 +2501,21 @@ Ceci veut dire que des frais à hauteur de %2 sont requis.</translation>
     </message>
     <message>
         <source>
-SSL options: (see the Paycoin Wiki for SSL setup instructions)</source>
+SSL options: (see the EsZett Wiki for SSL setup instructions)</source>
         <translation>
-Options SSL : (voir le Wiki de Paycoin pour les instructions de configuration du SSL)</translation>
+Options SSL : (voir le Wiki de EsZett pour les instructions de configuration du SSL)</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>Erreur lors du chargement de wallet.dat : Le porte-monnaie nécessite une version plus récente de Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of EsZett</source>
+        <translation>Erreur lors du chargement de wallet.dat : Le porte-monnaie nécessite une version plus récente de EsZett</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>Le porte-monnaie a besoin d'être réécrit : redémarrez Paycoin pour compléter le processus</translation>
+        <source>Wallet needed to be rewritten: restart EsZett to complete</source>
+        <translation>Le porte-monnaie a besoin d'être réécrit : redémarrez EsZett pour compléter le processus</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>Attention : Veuillez vérifier que la date et l'heure de votre ordinateur sont correctes.  Si votre horloge n'est pas à l'heure Paycoin ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong EsZett will not work properly.</source>
+        <translation>Attention : Veuillez vérifier que la date et l'heure de votre ordinateur sont correctes.  Si votre horloge n'est pas à l'heure EsZett ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>Loading addresses...</source>

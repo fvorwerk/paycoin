@@ -8,7 +8,7 @@ Release Process
 ### Update (commit) version in sources
 
 	doc/README*
-	paycoin-qt.pro
+	eszett-qt.pro
 	share/setup.nsi
 	src/version.h
 
@@ -24,7 +24,7 @@ Release Process
 
 ### Perform gitian builds
 
-From a directory containing the paycoin source, gitian-builder and gitian.sigs
+From a directory containing the eszett source, gitian-builder and gitian.sigs
 
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
@@ -42,55 +42,55 @@ From a directory containing the paycoin source, gitian-builder and gitian.sigs
 	wget 'https://svn.boost.org/trac/boost/raw-attachment/ticket/7262/boost-mingw.patch' -O boost-mingw-gas-cross-compile-2013-03-03.patch
 	wget 'https://download.qt-project.org/archive/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.tar.gz'
 	cd ..
-	./bin/gbuild ../paycoin/contrib/gitian-descriptors/boost-linux.yml
+	./bin/gbuild ../eszett/contrib/gitian-descriptors/boost-linux.yml
 	cp build/out/boost-linux*-1.55.0-gitian-r1.zip inputs/
-	./bin/gbuild ../paycoin/contrib/gitian-descriptors/deps-linux.yml
-	cp build/out/paycoin-deps-linux*-gitian-r5.zip inputs/
-	./bin/gbuild ../paycoin/contrib/gitian-descriptors/boost-win.yml
+	./bin/gbuild ../eszett/contrib/gitian-descriptors/deps-linux.yml
+	cp build/out/eszett-deps-linux*-gitian-r5.zip inputs/
+	./bin/gbuild ../eszett/contrib/gitian-descriptors/boost-win.yml
 	cp build/out/boost-win*-1.55.0-gitian-r6.zip inputs/
-	./bin/gbuild ../paycoin/contrib/gitian-descriptors/qt-win.yml
+	./bin/gbuild ../eszett/contrib/gitian-descriptors/qt-win.yml
 	cp build/out/qt-win*-4.8.5-gitian-r3.zip inputs/
-	./bin/gbuild ../paycoin/contrib/gitian-descriptors/deps-win.yml
-	cp build/out/paycoin-deps-win*-gitian-r12.zip inputs/
+	./bin/gbuild ../eszett/contrib/gitian-descriptors/deps-win.yml
+	cp build/out/eszett-deps-win*-gitian-r12.zip inputs/
 
 ### Build Bitcoin Core for Linux and Windows:
 **Build for Linux32 and Linux64:**
 
-    ./bin/gbuild --commit paycoin=v${VERSION} ../paycoin/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../paycoin/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gbuild --commit eszett=v${VERSION} ../eszett/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../eszett/contrib/gitian-descriptors/gitian-linux.yml
 	pushd build/out
-	zip -r paycoin-${VERSION}-linux-gitian.zip *
-	mv paycoin-${VERSION}-linux-gitian.zip ../../
+	zip -r eszett-${VERSION}-linux-gitian.zip *
+	mv eszett-${VERSION}-linux-gitian.zip ../../
 	popd
 
 **Build for Win32 and Win64:**
 
-	./bin/gbuild --commit paycoin=v${VERSION} ../paycoin/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../paycoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gbuild --commit eszett=v${VERSION} ../eszett/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../eszett/contrib/gitian-descriptors/gitian-win.yml
 	pushd build/out
-	zip -r paycoin-${VERSION}-win-gitian.zip *
-	mv paycoin-${VERSION}-win-gitian.zip ../../
+	zip -r eszett-${VERSION}-win-gitian.zip *
+	mv eszett-${VERSION}-win-gitian.zip ../../
 	popd
 Build output expected:
 
-1. linux 32-bit and 64-bit binaries + source (paycoin-${VERSION}-linux-gitian.zip)
-2. windows 32-bit and 64-bit binaries, installers + source (paycoin-${VERSION}-win-gitian.zip)
+1. linux 32-bit and 64-bit binaries + source (eszett-${VERSION}-linux-gitian.zip)
+2. windows 32-bit and 64-bit binaries, installers + source (eszett-${VERSION}-win-gitian.zip)
 3. Gitian signatures (in gitian.sigs/${VERSION}[-win]/(your gitian key)/
 
 Repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 **Linux .tar.gz:**
 
-	unzip paycoin-${VERSION}-linux-gitian.zip -d paycoin-${VERSION}-linux
-	tar czvf paycoin-${VERSION}-linux.tar.gz paycoin-${VERSION}-linux
-	rm -rf paycoin-${VERSION}-linux
+	unzip eszett-${VERSION}-linux-gitian.zip -d eszett-${VERSION}-linux
+	tar czvf eszett-${VERSION}-linux.tar.gz eszett-${VERSION}-linux
+	rm -rf eszett-${VERSION}-linux
 
 **Windows .zip and setup.exe:**
 
-	unzip paycoin-${VERSION}-win32-gitian.zip -d paycoin-${VERSION}-win32
-	mv paycoin-${VERSION}-win32/paycoin-*-setup.exe .
-	zip -r paycoin-${VERSION}-win32.zip paycoin-${VERSION}-win32
-	rm -rf paycoin-${VERSION}-win32
+	unzip eszett-${VERSION}-win32-gitian.zip -d eszett-${VERSION}-win32
+	mv eszett-${VERSION}-win32/eszett-*-setup.exe .
+	zip -r eszett-${VERSION}-win32.zip eszett-${VERSION}-win32
+	rm -rf eszett-${VERSION}-win32
 
 **Perform Mac build**
 
@@ -109,7 +109,7 @@ ended up installing a version that worked with: /usr/bin/easy_install-2.7 appscr
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
 	python2.7 contrib/macdeploy/macdeployqtplus Bitcoin-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
-Build output expected: Paycoin-Qt.dmg
+Build output expected: EsZett-Qt.dmg
 
 ### Next steps:
 
@@ -117,7 +117,7 @@ Build output expected: Paycoin-Qt.dmg
 
 * Create SHA256SUMS for builds, and PGP-sign it
 
-* Update paycoin.com version
+* Update eszett.com version
 
 * Update forum version
 
@@ -137,32 +137,32 @@ Build output expected: Paycoin-Qt.dmg
 * * *
 
 ### After 3 or more people have gitian-built, repackage gitian-signed zips:
-From a directory containing paycoin source, gitian.sigs and gitian zips
+From a directory containing eszett source, gitian.sigs and gitian zips
 
 	export VERSION=0.5.1
-	mkdir paycoin-${VERSION}-linux-gitian
-	pushd paycoin-${VERSION}-linux-gitian
-	unzip ../paycoin-${VERSION}-linux-gitian.zip
+	mkdir eszett-${VERSION}-linux-gitian
+	pushd eszett-${VERSION}-linux-gitian
+	unzip ../eszett-${VERSION}-linux-gitian.zip
 	mkdir gitian
-	cp ../paycoin/contrib/gitian-downloader/*.pgp ./gitian/
+	cp ../eszett/contrib/gitian-downloader/*.pgp ./gitian/
 	for signer in $(ls ../gitian.sigs/${VERSION}/); do
-     cp ../gitian.sigs/${VERSION}/${signer}/paycoin-build.assert ./gitian/${signer}-build.assert
-     cp ../gitian.sigs/${VERSION}/${signer}/paycoin-build.assert.sig ./gitian/${signer}-build.assert.sig
+     cp ../gitian.sigs/${VERSION}/${signer}/eszett-build.assert ./gitian/${signer}-build.assert
+     cp ../gitian.sigs/${VERSION}/${signer}/eszett-build.assert.sig ./gitian/${signer}-build.assert.sig
 	done
-	zip -r paycoin-${VERSION}-linux-gitian.zip *
-	cp paycoin-${VERSION}-linux-gitian.zip ../
+	zip -r eszett-${VERSION}-linux-gitian.zip *
+	cp eszett-${VERSION}-linux-gitian.zip ../
 	popd
-	mkdir paycoin-${VERSION}-win-gitian
-	pushd paycoin-${VERSION}-win-gitian
-	unzip ../paycoin-${VERSION}-win-gitian.zip
+	mkdir eszett-${VERSION}-win-gitian
+	pushd eszett-${VERSION}-win-gitian
+	unzip ../eszett-${VERSION}-win-gitian.zip
 	mkdir gitian
-	cp ../paycoin/contrib/gitian-downloader/*.pgp ./gitian/
+	cp ../eszett/contrib/gitian-downloader/*.pgp ./gitian/
 	for signer in $(ls ../gitian.sigs/${VERSION}-win/); do
-     cp ../gitian.sigs/${VERSION}-win/${signer}/paycoin-build.assert ./gitian/${signer}-build.assert
-     cp ../gitian.sigs/${VERSION}-win/${signer}/paycoin-build.assert.sig ./gitian/${signer}-build.assert.sig
+     cp ../gitian.sigs/${VERSION}-win/${signer}/eszett-build.assert ./gitian/${signer}-build.assert
+     cp ../gitian.sigs/${VERSION}-win/${signer}/eszett-build.assert.sig ./gitian/${signer}-build.assert.sig
 	done
-	zip -r paycoin-${VERSION}-win-gitian.zip *
-	cp paycoin-${VERSION}-win-gitian.zip ../
+	zip -r eszett-${VERSION}-win-gitian.zip *
+	cp eszett-${VERSION}-win-gitian.zip ../
 	popd
 
 * Upload gitian zips to SourceForge

@@ -1037,8 +1037,8 @@ Adres: %4
         <translation>Seçenekler:</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: paycoind.pid)</translation>
+        <source>Specify pid file (default: eszettd.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: eszettd.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>

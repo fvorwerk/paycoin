@@ -1,5 +1,5 @@
-Paycoin 0.3.3.0
-Copyright (c) 2014-2015 Paycoin developers
+EsZett 0.3.3.0
+Copyright (c) 2014-2015 EsZett developers
 
 Distributed under the MIT software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -8,16 +8,16 @@ the OpenSSL Toolkit (https://www.openssl.org/).  This product includes
 cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 
-About Paycoin
+About EsZett
 ---------------
-Paycoin is a Paycoin network-compatible, community-developed wallet client.
+EsZett is a EsZett network-compatible, community-developed wallet client.
 
 The project has been designed to provide people with a
-stable, secure, and feature-rich alternative to the Paycoin reference
-wallet (https://github.com/paycoin/paycoin).
+stable, secure, and feature-rich alternative to the EsZett reference
+wallet (https://github.com/eszett/eszett).
 
 To help faciliate broad community cooperation, a number of trusted
-Paycoin/Peershares community leaders have write permissions to the project's
+EsZett/Peershares community leaders have write permissions to the project's
 codebase, allowing for decentralization and continuity. Community members,
 old and new, are encouraged to find ways to contribute to the success of
 the project. If you have experience with programming, product design,
@@ -34,23 +34,23 @@ Development Roadmap
 
 Resources
 ---------
-Paycoin source code: https://github.com/Paycoin/Paycoin
+EsZett source code: https://github.com/EsZett/EsZett
 
-For the most current instructions covering how to compile Paycoin from
+For the most current instructions covering how to compile EsZett from
 source on a variety of operating systems, please visit:
-https://github.com/Paycoin/Paycoin/tree/master/doc
+https://github.com/EsZett/EsZett/tree/master/doc
 
 Open software issues can be viewed, and new issues can be reported at:
-https://github.com/Paycoin/Paycoin/issues?state=open
+https://github.com/EsZett/EsZett/issues?state=open
 
-Paycoin discussion forums (hosted by PaycoinTalk.org):
-http://www.paycointalk.org/index.php?board=64.0
+EsZett discussion forums (hosted by EsZettTalk.org):
+http://www.eszetttalk.org/index.php?board=64.0
 
 
 
 Acknowledgements
 ----------------
-Paycoin owes it's existance to the time and effort put forth by
+EsZett owes it's existance to the time and effort put forth by
 the developers and supporters of the following projects:
 
 

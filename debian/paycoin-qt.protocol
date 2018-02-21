@@ -1,6 +1,6 @@
 [Protocol]
-exec=paycoin-qt '%u'
-protocol=paycoin
+exec=eszett-qt '%u'
+protocol=eszett
 input=none
 output=none
 helper=true

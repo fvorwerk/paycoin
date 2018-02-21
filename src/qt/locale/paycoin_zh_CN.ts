@@ -3,12 +3,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Paycoin</source>
-        <translation>关于Paycoin</translation>
+        <source>About EsZett</source>
+        <translation>关于EsZett</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Paycoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;b&gt;EsZett&lt;/b&gt; version</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;EsZett&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     </context>
 <context>
@@ -18,8 +18,8 @@
         <translation>地址薄</translation>
     </message>
     <message>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这些是你接受支付的Paycoin地址。当支付时你可以给出不同的地址，以便追踪不同的支付者。</translation>
+        <source>These are your EsZett addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>这些是你接受支付的EsZett地址。当支付时你可以给出不同的地址，以便追踪不同的支付者。</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
@@ -154,12 +154,12 @@
     <message>
         <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PAYCOINS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>警告：如果您加密了您的钱包之后忘记了口令，您将会&lt;b&gt;失去所有的Paycoin&lt;/b&gt;！
+        <translation>警告：如果您加密了您的钱包之后忘记了口令，您将会&lt;b&gt;失去所有的EsZett&lt;/b&gt;！
 确定要加密钱包吗？</translation>
     </message>
     <message>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin将关闭软件以完成加密过程。 请谨记：钱包加密并不是万能的，电脑中毒，您的Paycoin还是有可能丢失。</translation>
+        <source>EsZett will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your EsZetts from being stolen by malware infecting your computer.</source>
+        <translation>EsZett将关闭软件以完成加密过程。 请谨记：钱包加密并不是万能的，电脑中毒，您的EsZett还是有可能丢失。</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -237,8 +237,8 @@ Are you sure you wish to encrypt your wallet?</source>
         <translation>退出程序</translation>
     </message>
     <message>
-        <source>Show information about Paycoin</source>
-        <translation>显示Paycoin的相关信息</translation>
+        <source>Show information about EsZett</source>
+        <translation>显示EsZett的相关信息</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -313,32 +313,32 @@ Are you sure you wish to encrypt your wallet?</source>
         <translation>[测试网络]</translation>
     </message>
     <message>
-        <source>Paycoin Wallet</source>
-        <translation>Paycoin钱包</translation>
+        <source>EsZett Wallet</source>
+        <translation>EsZett钱包</translation>
     </message>
     <message>
-        <source>Send coins to a Paycoin address</source>
-        <translation>向一个Paycoin地址发送币</translation>
+        <source>Send coins to a EsZett address</source>
+        <translation>向一个EsZett地址发送币</translation>
     </message>
     <message>
-        <source>&amp;About Paycoin</source>
-        <translation>关于Paycoin(&amp;A)</translation>
+        <source>&amp;About EsZett</source>
+        <translation>关于EsZett(&amp;A)</translation>
     </message>
     <message>
-        <source>Modify configuration options for Paycoin</source>
+        <source>Modify configuration options for EsZett</source>
         <translation>设置选项</translation>
     </message>
     <message>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>显示/隐藏&amp;Paycoin</translation>
+        <source>Show/Hide &amp;EsZett</source>
+        <translation>显示/隐藏&amp;EsZett</translation>
     </message>
     <message>
-        <source>Show or hide the Paycoin window</source>
+        <source>Show or hide the EsZett window</source>
         <translation>显示或隐藏主窗口</translation>
     </message>
     <message>
-        <source>Paycoin client</source>
-        <translation>Paycoin客户端</translation>
+        <source>EsZett client</source>
+        <translation>EsZett客户端</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -409,8 +409,8 @@ Address: %4
         <translation>备份钱包到其它位置失败。</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>发生致命错误。Paycoin无法继续安全运行，将要退出。</translation>
+        <source>A fatal error occurred. EsZett can no longer continue safely and will quit.</source>
+        <translation>发生致命错误。EsZett无法继续安全运行，将要退出。</translation>
     </message>
     </context>
 <context>
@@ -611,7 +611,7 @@ Address: %4
         <translation>在交易清单中显示地址(&amp;D)</translation>
     </message>
     <message>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
+        <source>Whether to show EsZett addresses in the transaction list</source>
         <translation>是否需要在交易清单中显示币地址</translation>
     </message>
     <message>
@@ -666,8 +666,8 @@ Address: %4
         <translation>输入的地址 "%1" 已经存在于地址薄。</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Paycoin address.</source>
-        <translation>您输入的“%1”不是有效的Paycoin地址。</translation>
+        <source>The entered address "%1" is not a valid EsZett address.</source>
+        <translation>您输入的“%1”不是有效的EsZett地址。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -922,8 +922,8 @@ Address: %4
         <translation>清空控制台</translation>
     </message>
     <message>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>欢迎来到Paycoin RPC 控制台。&lt;br&gt;使用上下方向键浏览历史,  &lt;b&gt;Ctrl-L&lt;/b&gt;清除屏幕。&lt;br&gt;使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
+        <source>Welcome to the EsZett RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>欢迎来到EsZett RPC 控制台。&lt;br&gt;使用上下方向键浏览历史,  &lt;b&gt;Ctrl-L&lt;/b&gt;清除屏幕。&lt;br&gt;使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
     </message>
     </context>
 <context>
@@ -1077,7 +1077,7 @@ Address: %4
         <translation>支付金额必须至少1分(0.01)。</translation>
     </message>
     <message>
-        <source>Warning: Invalid Paycoin address</source>
+        <source>Warning: Invalid EsZett address</source>
         <translation>警告：无效的币地址</translation>
     </message>
     <message>
@@ -1089,8 +1089,8 @@ Address: %4
         <translation>(没有标签)</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>输入一个Paycoin地址</translation>
+        <source>Enter a EsZett address</source>
+        <translation>输入一个EsZett地址</translation>
     </message>
     </context>
 <context>
@@ -1187,7 +1187,7 @@ Address: %4
         <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Paycoin address</source>
+        <source>Sign the message to prove you own this EsZett address</source>
         <translation>签名消息，证明这个地址属于您</translation>
     </message>
     <message>
@@ -1215,8 +1215,8 @@ Address: %4
         <translation>用于签名消息的地址</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>验证消息，确保消息是由指定的Paycoin地址签名过的</translation>
+        <source>Verify the message to ensure it was signed with the specified EsZett address</source>
+        <translation>验证消息，确保消息是由指定的EsZett地址签名过的</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1235,8 +1235,8 @@ Address: %4
         <translation>输入消息的签名</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>输入一个Paycoin地址</translation>
+        <source>Enter a EsZett address</source>
+        <translation>输入一个EsZett地址</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1583,8 +1583,8 @@ Address: %4
         <translation>使用：</translation>
     </message>
     <message>
-        <source>Paycoin version</source>
-        <translation>Paycoin版本</translation>
+        <source>EsZett version</source>
+        <translation>EsZett版本</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -1599,12 +1599,12 @@ Address: %4
         <translation>选项：</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: paycoin.conf)</source>
-        <translation>指定配置文件 (默认为 paycoin.conf)</translation>
+        <source>Specify configuration file (default: eszett.conf)</source>
+        <translation>指定配置文件 (默认为 eszett.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 paycoind.pid)
+        <source>Specify pid file (default: eszettd.pid)</source>
+        <translation>指定 pid 文件 (默认为 eszettd.pid)
 </translation>
     </message>
     <message>
@@ -1765,24 +1765,24 @@ Address: %4
 </translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>无法锁住数据目录%s。Paycoin可能已经在运行中。</translation>
+        <source>Cannot obtain a lock on data directory %s.  EsZett is probably already running.</source>
+        <translation>无法锁住数据目录%s。EsZett可能已经在运行中。</translation>
     </message>
     <message>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>EsZett</source>
+        <translation>EsZett</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>wallet.dat钱包文件加载错误：钱包需要更新版本的Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of EsZett</source>
+        <translation>wallet.dat钱包文件加载错误：钱包需要更新版本的EsZett</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>钱包文件需要被重写：请重新启动Paycoin客户端</translation>
+        <source>Wallet needed to be rewritten: restart EsZett to complete</source>
+        <translation>钱包文件需要被重写：请重新启动EsZett客户端</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>警告：请检查电脑的日期时间设置是否正确。时间错误可能会导致Paycoin客户端运行异常。</translation>
+        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong EsZett will not work properly.</source>
+        <translation>警告：请检查电脑的日期时间设置是否正确。时间错误可能会导致EsZett客户端运行异常。</translation>
     </message>
     <message>
         <source>Loading addresses...</source>

@@ -1,4 +1,4 @@
-<TS language="hi" version="2.0">
+﻿<TS language="hi" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
@@ -269,8 +269,8 @@
         <translation>व्यवहार:</translation>
     </message>
     <message>
-        <source>Paycoin version</source>
-        <translation>Paycoin संस्करण</translation>
+        <source>EsZett version</source>
+        <translation>EsZett संस्करण</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -309,8 +309,8 @@
         <translation>संबंध काल समापन निर्दिष्ट करें (मिलीसेकंड में )</translation>
     </message>
     <message>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>EsZett</source>
+        <translation>EsZett</translation>
     </message>
     </context>
 </TS>

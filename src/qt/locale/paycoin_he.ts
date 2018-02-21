@@ -1028,8 +1028,8 @@ Address: %4
         <translation>אפשרויות:</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>ציין קובץ pid (ברירת מחדל: paycoind.pid)</translation>
+        <source>Specify pid file (default: eszettd.pid)</source>
+        <translation>ציין קובץ pid (ברירת מחדל: eszettd.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>

@@ -1,6 +1,6 @@
-Paycoin version 0.3.1.1 is now available from:
+EsZett version 0.3.1.1 is now available from:
 
-  https://github.com/PaycoinFoundation/paycoin/releases
+  https://github.com/EsZettFoundation/eszett/releases
 
 This is an optional update (for normal users), including scrape addresses and general code cleanup.
 
@@ -8,7 +8,7 @@ For users on the testnet this is a mandatory update as it includes micro-primes 
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/PaycoinFoundation/paycoin/issues
+  https://github.com/EsZettFoundation/eszett/issues
 
 Upgrading and downgrading
 =========================
@@ -18,16 +18,16 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (this could take a few minutes), then run the installer (on Windows)
-or just copy over /Applications/Paycoin-Qt (on Mac) or paycoind/paycoin-qt (on Linux).
+or just copy over /Applications/EsZett-Qt (on Mac) or eszettd/eszett-qt (on Linux).
 
 If you encounter any issues starting the new wallet it is recommended that you delete and resync the blockchain. To delete the blockchain look in the
-Paycoin data directory (listed below) and delete everything except the wallet.dat and paycoin.conf
+EsZett data directory (listed below) and delete everything except the wallet.dat and eszett.conf
 
-Linux : `~/.paycoin/`
+Linux : `~/.eszett/`
 
-Windows : `%appdata%\Paycoin`
+Windows : `%appdata%\EsZett`
 
-Mac : `~/Library/Application Support/Paycoin`
+Mac : `~/Library/Application Support/EsZett`
 
 It is highly recommended that if you do not have a backup of your wallet.dat
 to go ahead and make one before deleting the blockchain.
