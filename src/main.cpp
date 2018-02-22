@@ -1000,17 +1000,17 @@ int64 GetProofOfStakeReward(int64 nCoinAge, unsigned int nTime, int primeNodeRat
     int64 nRewardCoinYear = 0;  // creation amount per coin-year
 
     if (primeNodeRate == 0)
-        nRewardCoinYear = 5 * CENT;
+        nRewardCoinYear = 0 * CENT;
     else if (primeNodeRate == 10)
-        nRewardCoinYear = 10 * CENT;
+        nRewardCoinYear = 0 * CENT;
     else if (primeNodeRate == 20)
-        nRewardCoinYear = 20 * CENT;
+        nRewardCoinYear = 0 * CENT;
     else if (primeNodeRate == 25)
-        nRewardCoinYear = 25 * CENT;
+        nRewardCoinYear = 0 * CENT;
     else if (primeNodeRate == 100)
-        nRewardCoinYear = 100 * CENT;
+        nRewardCoinYear = 0 * CENT;
     else if (primeNodeRate == 350)
-        nRewardCoinYear = 350 * CENT;
+        nRewardCoinYear = 0 * CENT;
 
     nSubsidy = nCoinAge * nRewardCoinYear * 33 / (365 * 33 + 8);
 
@@ -2470,7 +2470,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1417219210;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 716560;
+        block.nNonce   = 0;
 
         if (fTestNet)
         {
@@ -2482,7 +2482,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("%s\n", block.GetHash().ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x1552f748afb7ff4e04776652c5a17d4073e60b7004e9bca639a99edb82aeb1a0"));
+        assert(block.hashMerkleRoot == uint256("0x0"));
         block.print();
         assert(block.GetHash() == hashGenesisBlock);
         assert(block.CheckBlock());
